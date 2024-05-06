@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+		<title>Neoplasticismo</title>
+		<link rel="stylesheet" href="styles.css" />
+
+        <style>
+            body {
+                background-color: white; /* Fondo blanco */
+            }
+            .amor {
+                text-align: center; /* Texto centrado */
+                padding: 50px 0; /* Espacio alrededor del contenido */
+            }
+            .amor p {
+                color: #00008B; /* Color de texto azul oscuro */
+                font-weight: bold; /* Texto en negrita */
+                font-size: 24px; /* Tamaño de fuente más grande */
+                margin-bottom: 20px; /* Espacio debajo del texto */
+            }
+            .container {
+                text-align: center; /* Centrar contenido dentro del contenedor */
+            }
+            .container img {
+                width: 50%; /* Ajustar tamaño de la imagen */
+                border: 5px solid black; /* Añadir un marco negro */
+                display: block; /* Centrar imagen */
+                margin: 0 auto; /* Centrar imagen */
+            }
+        </style>
+	</head>
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="customer-support">
+						<i class="fa-solid fa-headset"></i>
+						<div class="content-customer-support">
+							<span class="text">Soporte al cliente</span>
+							<span class="number">11-49391355</span>
+						</div>
+					</div>
+
+                    <div class="container-user">
+                        <a href="contacto.html"><i class="fa-solid fa-user"></i></a>
+                        <a href="museo.html"><i class="fa-solid fa-home"></i></a>
+                    </div>
+                                   
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+				  <i class="fas fa-bars" onclick="openNav()"></i>
+				  <ul class="menu">
+					<li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="NuestraHistoria.html">Nuestra Historia</a></li>
+					<li><a href="Artistas.html">Artistas</a></li>
+					<li><a href="Galerias.html">Galerias</a></li>
+			
+				  </ul>
+				  <form class="search-form">
+					<input type="search" placeholder="Buscar..." />
+					<button class="btn-search">
+					  <i class="fas fa-search"></i>
+					</button>
+				  </form>
+				</nav>
+			  </div>
+			
+			  <div id="mySidebar" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<a href="inicio.html">Inicio</a>
+                <a href="NuestraHistoria.html">Nuestra Historia</a>
+				<a href="Artistas.html">Artistas</a>
+				<a href="Galerias.html">Galerias</a>
+			  </div>
+			
+			  
+			
+			  <script>
+				function openNav() {
+				  document.getElementById("mySidebar").style.width = "250px";
+				  document.getElementById("main").style.marginLeft = "250px";
+				}
+			
+				function closeNav() {
+				  document.getElementById("mySidebar").style.width = "0";
+				  document.getElementById("main").style.marginLeft = "0";
+				}
+			  </script>
+		</header>
+        <section class="amor">
+            <div class="container">
+                <div class="texto-superior">
+                    <p>Museo nacional Thyssen-Bornemisza. Piet Mondrian</p>
+                </div>
+                <img src="Imagenes/av_imagen.webp">
+            </div>
+        
+            <div class="content5" style="margin-top: 20px;"> <!-- Ajuste de margen para posicionar el botón más abajo -->
+                <a href="https://www.google.com/maps/place/Museo+Nacional+Thyssen-Bornemisza/@40.4160406,-3.6975003,17z/data=!3m1!4b1!4m6!3m5!1s0xd4228831aa2ecbf:0x5a934a7882cb528f!8m2!3d40.4160406!4d-3.6949254!16zL20vMDczejE5?entry=ttu" class="boton" style="background-color: red; padding: 10px 20px;"> <!-- Ajuste de relleno para aumentar el espacio alrededor del texto -->
+                    <span style="color: white; font-weight: bold;">Ver mapa</span> <!-- Estilo para texto blanco y negrita -->
+                </a>
+            </div>
+        </section>
+        
+        
+        
+        
+        <footer class="footer">
+            <div class="container container-footer">
+                <div class="menu-footer">
+                    <div class="contact-info">
+                        <p class="title-footer">Información de Contacto</p>
+                        <ul>
+                            <li>Teléfono: 11-49391355</li>
+                            <li>EmaiL: Neoplasticismo@support.com</li>
+                        </ul>
+                        <div class="social-icons">
+
+                            <span class="youtube">
+                                <a href="https://www.youtube.com/watch?v=95IW6AU02ns&ab_channel=EstebanSanders" class="fa-brands fa-youtube"></a>
+                            </span>
+                            <span class="instagram">
+                                <a href="https://www.instagram.com/neoplasticismo_/" class="fa fa-instagram"></a>
+                            </span>
+                            <span class="pinterest">
+                                <a href="https://ar.pinterest.com/search/pins/?rs=ac&len=2&q=neoplasticismo&eq=neopl&etslf=8445" class="fa-brands fa-pinterest-p"></a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <p class="title-footer">Información</p>
+                        <ul>
+                            <li><a href="#">Acerca de Nosotros</a></li>
+                            <li><a href="#">Politicas de Privacidad</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="my-account">
+                        <p class="title-footer">Mi cuenta</p>
+                        <ul>
+                            <li><a href="#">Mi cuenta</a></li>
+                            <li><a href="#">Contactános</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="newsletter">
+                        <p class="title-footer">Boletín informativo</p>
+                        <div class="content">
+                            <p>Suscríbete a nuestros boletines ahora y mantente al día con nuevas novedades.</p>
+                            <form action="suscribirse.php" method="post">
+                                <input type="email" name="correo" placeholder="Ingresa el correo aquí...">
+                                <button type="submit" name="submit">Suscríbete</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="copyright">
+                    <p>
+                        © 2024 Slee Dw - Todos los Derechos Reservados
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    </body>
+    </html>
